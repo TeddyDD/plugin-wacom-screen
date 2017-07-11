@@ -34,7 +34,7 @@ $ wacom-screen screen
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/TeddyDD
-[contributors]:   https://github.com/TeddyDD/plugin-wacom_screen/graphs/contributors
+[contributors]:   https://github.com/TeddyDD/plugin-wacom-screen/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
