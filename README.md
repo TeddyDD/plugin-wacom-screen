@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### wacom_screen
+#### wacom-screen
 > Quickly map all Wacom tablets to given screen. A plugin for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install wacom_screen
+$ omf install wacom-screen
 ```
 
 
@@ -23,7 +23,7 @@ Use <kbd>TAB</kbd> to cycle through all connected screens. You can find names of
 screens using `xrandr` command.
 
 ```fish
-$ wacom_screen screen
+$ wacom-screen screen
 ```
 
 
