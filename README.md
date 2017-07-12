@@ -1,7 +1,7 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
 #### wacom-screen
-> Quickly map all Wacom tablets to given screen. A plugin for [Oh My Fish][omf-link].
+> Wacom tablet utilities. A plugin for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.6.0-007EC7.svg?style=flat-square)](https://fishshell.com)
@@ -19,6 +19,8 @@ $ omf install wacom-screen
 
 ## Usage
 
+### Map tablet to given display
+
 Use <kbd>TAB</kbd> to cycle through all connected screens. You can find names of
 screens using `xrandr` command.
 
@@ -26,6 +28,13 @@ screens using `xrandr` command.
 $ wacom-screen screen
 ```
 
+### Toggle touch input
+
+```fish
+$ wacom-finger on
+$ wacom-finger off
+$ wacom-finger # toogle
+```
 
 # License
 
